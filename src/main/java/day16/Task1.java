@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
-        File file = new File("test.txt");
+        File file = new File("tst.txt");
 
         printResult(file);
     }
@@ -27,7 +27,7 @@ public class Task1 {
             System.out.printf("%.3f", average);
 
         } catch (FileNotFoundException e) {
-            System.out.println("Τΰιλ νε νΰιδεν");;
+            System.out.println("Π¤Π°ΠΉΠ» Π½Πµ Π½Π°ΠΉΠ΄ΠµΠ½");;
         }
     }
 }
